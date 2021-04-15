@@ -19,4 +19,4 @@ function Question(props) {
   ); 
 }
 
-export default Recipe;
+export default Question;

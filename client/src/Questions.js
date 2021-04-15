@@ -1,6 +1,6 @@
 import { Link } from '@reach/router';
 import React from 'react';
-import AddQuestion from './addQuestion'
+import AddQuestion from './AddQuestion'
 
 
 function Questions(props) {

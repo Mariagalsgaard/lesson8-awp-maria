@@ -1,6 +1,9 @@
 import React, {useEffect, useState} from "react";
-import AddQuestion from "./addQuestion";
-import AddAnswer from "./addAnswer";
+import AddQuestion from "./AddQuestion";
+import AddAnswer from "./AddAnswer";
+import { Router } from '@reach/router'
+import Question from './Question';
+import Questions from './Questions';
 const API_URL = process.env.REACT_APP_API;
 
 function App() {
@@ -22,11 +25,13 @@ function App() {
 
       <AddQuestion />
       <AddAnswer />
-
+{/*
       <Router>
         <Questions path="/" data={questions} addQuestion={addQuestion}> </Questions>
         <Question path="/question/:id" getQuestion={getQuestion} ></Question>
       </Router> 
+
+*/}
     </>
   );
 }
